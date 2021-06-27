@@ -6,10 +6,6 @@ export default function Button({ onClick, children }) {
 }
 
 export const StyledButton = styled.button`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #ff3369;
   border: 0;
   color: white;

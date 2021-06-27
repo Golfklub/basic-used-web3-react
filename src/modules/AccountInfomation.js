@@ -4,15 +4,15 @@ import styled from "styled-components";
 import Card from "../components/card";
 
 export default function AccountInformation() {
-  const web3React = useWeb3React();
+  const { account, chainId } = useWeb3React();
 
   return (
     <Card>
       <TextContainer style={{ display: "flex" }}>
-        Account: <span>{web3React.account}</span>
+        Account: <span>{account}</span>
       </TextContainer>
       <TextContainer>
-        Chain Id: <span>{web3React.chainId}</span>
+        Chain Id: <span>{chainId}</span>
       </TextContainer>
     </Card>
   );

@@ -6,10 +6,6 @@ export default function Card({ onClick, children }) {
 }
 
 export const StyledCard = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border: 0;
   padding: 10px 40px;
   text-align: left;
@@ -17,5 +13,5 @@ export const StyledCard = styled.div`
   border-radius: 5px;
   font-weight: 700;
   font-size: 20px;
-  border: 1px solid;
+  background: #e5e7eb;
 `;
